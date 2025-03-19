@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and local dev files
+logs/
+*.log
+nohup.out
+*.pid
+*.seed
+
+# Ignore dataset files
+*.csv
+*.json
+
+# Ignore model artifacts
+*.pkl
+*.joblib
+*.h5
+
+# VS Code & PyCharm project files
+.vscode/
+.idea/
+*.iml
+
+# Docker files
+docker-compose.override.yml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage and test-related files
+.coverage
+htmlcov/
+*.cover
+*.pyc
+*.pyo
+*.pyd
